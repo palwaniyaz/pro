@@ -29,6 +29,9 @@ async function onSubmit(event) {
             alert('Registraciaydan o\'tin\'')
             window.location.href = "registraciya.html";
         }
+      } else {
+        window.location.href = "Avtorlar.html";
+
       }
   
   }
