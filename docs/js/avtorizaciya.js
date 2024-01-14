@@ -21,12 +21,12 @@ async function onSubmit(event) {
   
   
     if(!res.ok){
-        const answer = confirm('Siz registraciyadan o\'ttin\'izba')
+        const answer = confirm('Siz registraciyadan o\'ttin\'izba?')
 
         if(answer){
             alert('Email yaki parol qate terilgen')
         } else{
-            alert('Registraciaydan o\'in\'')
+            alert('Registraciaydan o\'tin\'')
             window.location.href = "registraciya.html";
         }
       }
